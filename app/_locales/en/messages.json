@@ -1,0 +1,18 @@
+{
+  "appName": {
+    "message": "Nhaccuatui.com Extension",
+    "description": "The name of the application"
+  },
+  "appShortName": {
+    "message": "NCT",
+    "description": "The short_name (maximum of 12 characters recommended) is a short version of the app's name."
+  },
+  "appDescription": {
+    "message": "Nhaccuatui Downloader",
+    "description": "The description of the application"
+  },
+  "browserActionTitle": {
+    "message": "Nhaccuatui.com Extension",
+    "description": "The title of the browser action button"
+  }
+}
