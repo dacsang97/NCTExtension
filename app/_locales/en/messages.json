@@ -1,18 +1,18 @@
 {
   "appName": {
-    "message": "Nhaccuatui.com Extension",
+    "message": "Music Downloader",
     "description": "The name of the application"
   },
   "appShortName": {
-    "message": "NCT",
+    "message": "ND",
     "description": "The short_name (maximum of 12 characters recommended) is a short version of the app's name."
   },
   "appDescription": {
-    "message": "Nhaccuatui Downloader",
+    "message": "Tải nhạc chất lượng cao",
     "description": "The description of the application"
   },
   "browserActionTitle": {
-    "message": "Nhaccuatui.com Extension",
+    "message": "Music Downloader",
     "description": "The title of the browser action button"
   }
 }

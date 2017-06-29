@@ -8,6 +8,8 @@ import plumber from 'gulp-plumber'
 import livereload from 'gulp-livereload'
 import args from './lib/args'
 
+// Production
+args.production = true;
 const ENV = args.production ? 'production' : 'development'
 
 gulp.task('scripts', (cb) => {
@@ -33,12 +35,7 @@ gulp.task('scripts', (cb) => {
         new webpack.optimize.UglifyJsPlugin()
       ] : []),
       module: {
-        rules: [{
-          test: /\.js$/,
-          loader: 'eslint-loader',
-          exclude: /node_modules/,
-          enforce: 'pre'
-        },
+        rules: [
         {
           test: /\.js$/,
           loader: 'babel-loader',
