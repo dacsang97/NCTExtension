@@ -4,8 +4,8 @@ import { h, app } from 'hyperapp';
 import config from './config';
 require('es6-promise').polyfill();
 require('isomorphic-fetch');
-
-let query = { active: true, currentWindow: true };
+// This is a comment
+let query = { active: true, currentWindow: false };
 let currentTab;
 
 chrome.tabs.query(query, function(tabs) {
@@ -19,7 +19,7 @@ chrome.tabs.query(query, function(tabs) {
       view: (state) => (
         <div class="app">
           <div class="container">
-            <h6>{state.data[2]}</h6>
+            <h1>{state.data[2]}</h6>
             <br />
             <div class="row">
               <div className="col-md-12">
